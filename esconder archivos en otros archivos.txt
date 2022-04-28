@@ -1,0 +1,11 @@
+
+
+copy /b DSC_0034.jpg + administracion.7z nuevafota.jpg
+
+(Este comando sirve para oculta un archivo en otro)
+
+copy /b ~ [esta parte es el comando, tienes que estar en el directorio donde estan las fotos para facilitar el trabajo.]
+DSC_0034.jpg ~ [este es el archivo que aparecera como portada.]
++ ~ [esto es para señalar el proximo archivo.]
+administracion.7z ~ [este es el archivo que esconderemos en la foto del arriba, tiene que estar en un directorio de facil acceso para facilidad.]
+nuevafota.jpg ~ [este es el nombre final del archivo con todo.]
