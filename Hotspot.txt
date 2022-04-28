@@ -1,0 +1,16 @@
+netsh wlan set hostednetwork mode=allow ssid=Coste key=123456789 [este comando es para la creacion de la red]
+
+netsh wlan start hostednetwork [este comando es para iniciar el hotspot]
+
+netsh wlan stop hostednetwork  [este comando es para parar el hotspot]
+
+netsh wlan show hostednetwork [este comando es para ver si esta activo el hotspot y cuantas personas hay en este]
+
+
+*nota: [
+Comparte la conexion a Internet. Para compartir la conexiÛn a Internet, ve hacia "Centro de redes y uso compartido" 
+y haz clic en "Cambiar configuracion del adaptador". AquÌ haz clic en la conexion que usas para acceder a Internet y 
+selecciona "Propiedades". En "Propiedades", ve hacia la pestaÒa "Uso compartido" y marca la casilla que dice "Permitir 
+a usuarios de otras redes conectarse a travÈs de la conexiÛn a Internet de este equipo" y selecciona el nombre de la 
+conexion de red que utiliza tu punto de acceso (para ello revisa la ventana "Conexiones de red" y busca la conexiÛn que 
+dice "Adaptador virtual de red hospedada de Microsoft") y guardala. Ahora compartir tu conexion a Internet.]
