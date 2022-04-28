@@ -1,0 +1,8 @@
+Como crear una red virtual: comandos
+
+1- netsh wlan set hostednetwork mode=allow ssid=(NOMBRE DE RED) key=(CONTRASE—A)
+2- netsh wlan start hostednetwork (iniciar red virtual wifi)
+
+3- netsh wlan stop hostednetwork (apagar red virtual wifi)
+4- netsh wlan show hostednetwork (ver que dispositivos estan conectados a tu red)
+5- netsh wlan show hostednetwork security (ver mas caracteristicas de tu red virtual wifi)
