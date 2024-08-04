@@ -4,4 +4,8 @@
 
 [Creating a hotspot on Windows](./Hotspot.txt)
 
-[Macbook Pro Install Script](./Mac_installer/install.sh)
+[Macbook Pro Installation Script - Install everything that I use with a single script](./Mac_installer/install.sh)
+
+[My Pihole setup](./PiHole_Setup)
+
+[Use your raspberry pi pico as a yubikey alternative](./yubikey_pico.py)
