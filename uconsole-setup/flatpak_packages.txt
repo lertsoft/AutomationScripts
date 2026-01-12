@@ -1,0 +1,4 @@
+# No specific Flatpak applications were listed in the original uConsole.sh for installation.
+# Only the flathub remote was added.
+# Add Flatpak application IDs here, one per line, if you want to install them.
+# Example: org.gimp.GIMP

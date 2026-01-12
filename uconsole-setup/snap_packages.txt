@@ -1,0 +1,2 @@
+core
+# zork # Commented out in original script

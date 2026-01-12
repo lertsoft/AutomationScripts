@@ -1,0 +1,62 @@
+# Quality of life tools for terminal and UI
+neofetch # Corrected from neofecth
+htop
+btop++
+wget
+
+# Installing sensors in XFCE to monitor temperature and battery life
+xfce4-sensors-plugin
+
+# Installing snaps
+snapd
+
+# Installing flathub - flatpak
+flatpak
+
+# Software Dev tooling
+git
+curl
+python3
+spyder
+
+# Installing node.js 20 on a raspberry pi (apt part)
+nodejs
+
+# SDR++ dependencies
+build-essential
+cmake
+libfftw3-dev
+libglfw3-dev
+libglew-dev
+libvolk2-dev
+libzstd-dev
+libsoapysdr-dev
+libairspyhf-dev
+libairspy-dev
+libiio-dev
+libad9361-dev
+librtaudio-dev
+libhackrf-dev
+librtlsdr-dev
+libbladerf-dev
+liblimesuite-dev
+p7zip-full
+
+# CHIRP dependencies
+python3-wxgtk4.0
+python3-serial
+python3-six
+python3-future
+python3-requests
+python3-pip
+
+# gpredict dependencies
+libtool
+intltool
+autoconf
+automake
+libcurl4-openssl-dev
+pkg-config
+libglib2.0-dev
+libgtk-3-dev
+libgoocanvas-2.0-dev
