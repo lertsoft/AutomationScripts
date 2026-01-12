@@ -1,5 +1,0 @@
-# The original script had a generic 'npm i' which typically installs dependencies from a package.json.
-# Since no package.json was provided, no specific npm packages are listed here by default.
-# If you install global npm packages (e.g., 'npm install -g <package>'), list them here, one per line.
-# Example: nodemon
-# Example: typescript

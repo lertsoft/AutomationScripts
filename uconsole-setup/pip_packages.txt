@@ -1,6 +1,0 @@
-# virtualenv # Commented out in original script
-# Note: The original script installed 'chirp-20240111-py3-none-any.whl' from a local file.
-# This specific .whl file needs to be present in the same directory as setup.sh
-# for the CHIRP installation step to work in setup.sh.
-# If you have other pip packages that are not local files, list them here.
-# Example: requests
