@@ -57,6 +57,7 @@ brew_formulae=(
     "lazydocker"
     "uv"
     "deno"
+    "no-more-secrets" # A fun CLI tool
 )
 
 for formula in "${brew_formulae[@]}"; do
@@ -66,26 +67,34 @@ done
 # 3. Install Brew Casks (GUI Apps)
 echo "Installing Brew Casks..."
 brew_casks=(
-    "dozer"
     "calibre"
     "veracrypt"
     "balenaetcher"
     "wireshark"
     "google-drive"
-    "imageoptim"
+    "proton-drive"
     "protonvpn"
+    "imageoptim"
     "ghostty"
     "github"
     "raycast"
-    "tiles"
     "visual-studio-code"
-    "cursor"
+    # "cursor"
+    "antigravity"
     "discord"
     "docker"
     "obsidian"
     "spotify"
     "zoom"
     "arc"
+    "lunar"
+    "coconutbattery"
+    "tempbox"
+    "little-snitch"
+    "ollama"
+    "grandperspective"
+    "celestia"
+    "google-earth-pro"
 )
 
 for cask in "${brew_casks[@]}"; do
@@ -101,8 +110,6 @@ echo "Installing Mac App Store Apps..."
 mas_apps=(
     "1352778147" # Bitwarden
     "425264550"  # Blackmagic Disk Speed Test
-    "424390742"  # Compressor
-    "571213070"  # DaVinci Resolve
     "640199958"  # Developer
     "1435957248" # Drafts
     "424389933"  # Final Cut Pro
@@ -123,6 +130,12 @@ mas_apps=(
     # "310633997"  # WhatsApp
     "1451685025" # WireGuard
     "497799835"  # Xcode
+    "1586432531" # Meshastic
+    "1295203466" # Windows App
+    "1668083311" # Whisper Transcription
+    "6720708363" # Obsidian Web Clipper
+    "6478481082" # OpenTermface
+    "6447589490" # Flash Notes
 )
 
 for app_id in "${mas_apps[@]}"; do
